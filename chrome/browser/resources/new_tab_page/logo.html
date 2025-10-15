@@ -21,8 +21,7 @@ ${this.showDoodle_ ? html`
       </cr-button>
     </div>
     ${this.iframeUrl_ ? html`
-      <ntp-iframe id="iframe" src="${this.iframeUrl_}" ?expanded="${this.expanded_}"
-          allow="autoplay; clipboard-write">
+      <ntp-iframe id="iframe" src="${this.iframeUrl_}" ?expanded="${this.expanded_}">
       </ntp-iframe>
     ` : ''}
   </div>
